@@ -31,15 +31,11 @@ public class app {
         ABBTDA arbol = new AVL();
         arbol.inicializarArbol();
 
-        arbol.agregarElem(17);
-        arbol.agregarElem(8);
-        arbol.agregarElem(48);
-        arbol.agregarElem(27);
-        arbol.agregarElem(55);
-        arbol.agregarElem(22);
-        arbol.agregarElem(39);
-        arbol.agregarElem(35);
-        arbol.agregarElem(40);
+        // Insertar elementos
+        int[] elementos = {17, 8, 48, 27, 55, 22, 39, 35, 40};
+        for (int elem : elementos) {
+            arbol.agregarElem(elem);
+        }
 
         System.out.print("PreOrder: ");
         preOrder(arbol);
