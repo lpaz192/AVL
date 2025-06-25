@@ -32,7 +32,7 @@ public class app {
         arbol.inicializarArbol();
 
         // Insertar elementos
-        int[] elementos = {17, 8, 48, 27, 55, 22, 39, 35, 40};
+        int[] elementos = {17, 8, 60, 33, 55, 19, 39, 35, 40, 89, 40};
         for (int elem : elementos) {
             arbol.agregarElem(elem);
         }
