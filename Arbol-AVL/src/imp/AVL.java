@@ -38,7 +38,7 @@ public class AVL implements ABBTDA {
         } else if (x > nodo.info) {
             obtenerHijo(nodo.hijoDer).agregarElem(x);
         } else {
-            return nodo; // No se permiten duplicados
+            return nodo;
         }
 
         actualizarAltura(nodo);
